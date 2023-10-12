@@ -111,7 +111,7 @@ function Landingpage() {
         </section>
         <aside className="bg-white w-80 mt-14 ml-8 sm:ml-52 rounded-lg flex flex-col">
           <h1 className="text-2xl font-semibold text-blue flex justify-center mt-8">
-            Sign Up Now
+            Sign In Now
           </h1>
           <input
             type="email"
