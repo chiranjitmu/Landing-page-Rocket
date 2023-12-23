@@ -31,7 +31,7 @@ function Landingpage() {
         <AnimatePresence>
           {modal && (
             <motion.div
-              className="bg-white rounded-b-xl text-black absolute left-0 w-full h-auto top-0 p-4 flex flex-col items-center"
+              className="bg-black rounded-b-xl text-white absolute left-0 w-full h-auto top-0 p-4 flex flex-col items-center"
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
@@ -40,7 +40,7 @@ function Landingpage() {
                 onClick={() => {
                   setModal(!modal);
                 }}
-                className="ml-52 mt-3 text-xl text-gray-500"
+                className="ml-52 mt-3 text-xl text-white"
               >
                 <RxCross2 />
               </button>
@@ -48,38 +48,38 @@ function Landingpage() {
                 onClick={() => {
                   setModal(!modal);
                 }}
-                className="my-1 text-xl mt-14 text-gray-700"
+                className="my-1 text-xl mt-14 text-white"
               >
                 Overview
               </a>
-              <hr className="w-10 my-2 bg-black" />
+              <hr className="w-10 my-2 bg-white" />
               <a
                 onClick={() => {
                   setModal(!modal);
                 }}
-                className="my-1 text-xl text-gray-500"
+                className="my-1 text-xl text-white"
               >
                 Prices
               </a>
-              <hr className="w-10 my-2 bg-black" />
+              <hr className="w-10 my-2 bg-white" />
               <a
                 onClick={() => {
                   setModal(!modal);
                 }}
-                className="my-1 text-xl text-gray-500"
+                className="my-1 text-xl text-white"
               >
                 Blog
               </a>
-              <hr className="w-10 my-2 bg-black" />
+              <hr className="w-10 my-2 bg-white" />
               <a
                 onClick={() => {
                   setModal(!modal);
                 }}
-                className="my-1 text-xl text-gray-500"
+                className="my-1 text-xl text-white"
               >
                 Feedback
               </a>
-              <hr className="w-10 my-2 bg-black" />
+              <hr className="w-10 my-2 bg-white" />
               <a
                 onClick={() => {
                   setModal(!modal);
