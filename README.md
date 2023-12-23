@@ -1,10 +1,17 @@
-# React + Vite
+Personal Responsive Landing Page
 
 For live App check [LIVE APP](https://rocket-header-14.netlify.app/).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+Welcome to my personal project repository! This contains the code for a responsive landing page that I've created for personal use. The landing page is developed using React + vite, with a focus on responsiveness achieved through tailwind css.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Getting Started
+Clone the repository to your local machine:
+git clone https://github.com/chiranjitmu/Landing-page-Rocket.git
+
+Open the index.html file in your web browser to view your personal landing page.
+
+Acknowledgments
+
+Thank you for exploring my personal landing page project! If you have any feedback or suggestions, feel free to let me know. Enjoy!

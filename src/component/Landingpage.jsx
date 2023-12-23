@@ -9,7 +9,7 @@ function Landingpage() {
   return (
     <>
       {/* header */}
-      <header className="mt-5 sm:mt-10 pl-6 sm:pl-0 sm:ml-32 flex items-center">
+      <header className="mt-5 sm:mt-10 pl-6 sm:pl-0 sm:ml-32 flex items-center box-border">
         <h1 className="text-2xl font-thinbold text-white">
           Startup<span className="ml-2">3</span>
         </h1>
@@ -93,8 +93,8 @@ function Landingpage() {
         </AnimatePresence>
       </header>
       {/* main */}
-      <main className="sm:flex pb-8 sm:pb-0">
-        <section className="mt-10 ml-4 sm:mt-20 sm:ml-32">
+      <main className="sm:flex justify-evenly items-center">
+        <section>
           <b className="text-white text-2xl sm:text-4xl p-5 w-56 sm:w-80 flex flex-col">
             <span>Generate</span>
             <span>Awesome Web</span>
@@ -109,7 +109,7 @@ function Landingpage() {
             Learn More
           </button>
         </section>
-        <aside className="bg-white w-80 mt-14 ml-8 sm:ml-52 rounded-lg flex flex-col">
+        <section className="bg-white w-80 mt-14 ml-8 sm:ml-52 rounded-lg flex flex-col">
           <h1 className="text-2xl font-semibold text-blue flex justify-center mt-8">
             Sign In Now
           </h1>
@@ -146,7 +146,7 @@ function Landingpage() {
             Do you have an Account?
             <a className="text-signinbutton ml-2 cursor-pointer">Sign In</a>
           </span>
-        </aside>
+        </section>
       </main>
     </>
   );
